@@ -9,6 +9,7 @@ set shiftwidth=4
 syntax on
 set encoding=utf-8
 set nu
+set expandtab
 
 " vundle check and install
 "let iCanHazVundle=1
