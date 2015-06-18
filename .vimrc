@@ -11,6 +11,19 @@ set encoding=utf-8
 set nu
 set expandtab
 
+" EasyMotion Plugin key map
+map <Leader> <Plug>(easymotion-prefix)
+nmap s <Plug>(easymotion-s2)
+nmap t <Plug>(easymotion-t2)
+map / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map n <Plug>(easymotion-next)
+map N <Plug>(easymotion-prev)
+map <Leader>l <Plug>(easymotion-lineforward)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+map <Leader>h <Plug>(easymotion-linebackward)
+
 " vundle check and install
 "let iCanHazVundle=1
 "let vundle_readme=expand('~/.vim/bundle/vundle/README.md')
@@ -32,6 +45,7 @@ Plugin 'gmarik/vundle'
 
 "plugins
 Plugin 'mattn/emmet-vim'
+Plugin 'Lokaltog/vim-easymotion'
 
 " Vundle setting end
 call vundle#end()
