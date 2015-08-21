@@ -54,8 +54,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'majutsushi/tagbar'
 "Plugin 'petdance/ack2'
-Plugin 'rking/ag.vim'
-Plugin 'dyng/ctrlsf.vim'
+"Plugin 'rking/ag.vim'
+"Plugin 'dyng/ctrlsf.vim'
 "Plugin 'mileszs/ack.vim'
 
 
